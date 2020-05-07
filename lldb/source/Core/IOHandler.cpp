@@ -9,8 +9,8 @@
 #include "lldb/Core/IOHandler.h"
 
 #ifndef LLDB_DISABLE_CURSES
-#include <curses.h>
-#include <panel.h>
+#include <ncurses/curses.h>
+#include <ncurses/panel.h>
 #endif
 
 #if defined(__APPLE__)
